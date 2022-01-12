@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-containar{
     display: flex;
    margin-bottom: 100px;
 }
@@ -34,4 +37,34 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 70%;
+    box-shadow: 10px 10px 10px darkslategray;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image:  linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 6px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+footer p{
+    
+    color: white;
+    text-align: center;
+    background-color: black;
+    
 }
